@@ -13,7 +13,7 @@ class App extends React.Component {
     }
 
     fetchRates = () => {
-        axios.get(`http://data.fixer.io/api/latest?access_key=c023a440b22214d7b69e3199cd10f914&format=1`)
+        axios.get(`http://data.fixer.io/api/latest?access_key=5e21cf2b766045cb9e9c95f3f116e69b&format=1`)
             .then(res => {
                 this.setState({
                     rates: res.data.rates,
