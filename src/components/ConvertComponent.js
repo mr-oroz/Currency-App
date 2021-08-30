@@ -46,7 +46,7 @@ class ConvertComponent extends Component {
             <>
                 <div className='center'>
                     <h1>КУРС КОНВЕРТИРОВАТЬ!</h1>
-                    <Form>
+                    <Form className={'rates-convert'}>
                         <div className={'form-group'}>
                             <div style={{ display: 'flex' }}>
                                 <Form.Control
